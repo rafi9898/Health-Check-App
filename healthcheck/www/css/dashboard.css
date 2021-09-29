@@ -1,0 +1,145 @@
+#dashboard > nav {
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+#dashboard > nav > div.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#dashboard nav img {
+    width: 85%;
+}
+
+div.searchbar-box {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+div.searchbar-box input {
+    width: 100%;
+    border: none;
+    padding: 13px 15px;
+    background: #F8F8F8;
+    font-size: 15px;
+    color: #8F8F8F;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 17px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+div.projects-title {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+div.projects-title > div {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #333;
+    border-radius: 90px;
+    background: #4F01D4;
+    margin-right: 10px;
+}
+
+div.projects-title > span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #141414;
+}
+
+div.projects-box {
+    width: 90%;
+    margin: 0 auto;
+}
+
+div.projects-box > ul {
+    margin-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+div.projects-box > ul > a {
+    text-decoration: none;
+    color: #171717;
+}
+
+div.projects-box > ul > a > li {
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 0px 9px;
+    padding-right: 0px;
+}
+
+div.projects-box > ul > a:first-child > li {
+    margin-top: 30px;
+}
+
+div.projects-box > ul > a:nth-child(even) > li {
+    background: #E5FDFF;
+}
+
+div.icon-status {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #333;
+    border-radius: 90px;
+    background: #05AE16;
+    margin-right: 10px;
+}
+
+span.project-name {
+    font-weight: 500;
+}
+
+span.go-project-arrow {
+    background: #4F01D4;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
+
+footer div.container {
+    display: flex;
+    width: 100%;
+}
+
+footer div.container a {
+    width: 50%;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer div.container a:first-child {
+    color: #141414;
+    font-size: 20px;
+    background: #F8F8F8;
+    padding: 13px 13px;
+}
+
+footer div.container a:nth-child(2) {
+    color: #FFEBEB;
+    font-size: 20px;
+    background: #6E6E6E;
+    padding: 13px 13px;
+}

@@ -1,0 +1,13 @@
+#login-form {
+    margin-bottom: 40px;
+}
+
+#login-form > input {
+    border: none;
+    padding: 15px 13px;
+    background: #F8F8F8;
+    font-size: 16px;
+    color: #8F8F8F;
+    margin-bottom: 10px;
+    width: 90%;
+}

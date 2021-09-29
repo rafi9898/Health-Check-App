@@ -1,0 +1,70 @@
+div.char-box {
+    margin-top: 20px;
+}
+
+div.char-box > span {
+    font-size: 15px;
+}
+
+div.control-btn {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#start-test-btn {
+    border: none;
+    border: 0.5px solid #707070;
+    background: #05AE16;
+    padding: 5px 40px;
+    color: #fff;
+}
+
+#stop-test-btn {
+    border: none;
+    border: 0.5px solid #707070;
+    background: #FF2929;
+    padding: 5px 40px;
+    color: #fff;
+}
+
+.status-job-box {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;;
+}
+
+.status-job-box > ul {
+    list-style-type: none;
+}
+
+.status-job-box > ul > a {
+    color: #141414;
+}
+
+.status-job-box > ul > a > li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    display: flex;
+}
+
+.job-status {
+    width: 16px;
+    height: 16px;
+    border: 0.5px solid #707070;
+    background: #05AE16;
+    margin-right: 10px;
+}
+
+span.back-arrow {
+    text-align: center;
+    margin-top: 20px;
+}
+
+div.arrow-box {
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: underline;
+    text-transform: uppercase;
+}

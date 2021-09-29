@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/dashboard.css">
+        <link rel="stylesheet" href="css/project.css">
+        <title>Projekt</title>
+    </head>
+    <body>
+        <section id="dashboard">
+            <nav>
+                <div class="container">
+                    <div class="brand">
+                        <img src="./img/logo.png" alt="logo" />
+                    </div>
+
+                    <div class="user">
+                        <img src="./img/user.png" />
+                    </div>
+                </div>
+            </nav>
+
+            <div class="projects-box">
+                <div class="projects-title">
+                    <div></div> <span>Aliexpress</span>
+                </div>
+
+                <div class="char-box">
+                    <span>STATUS: <strong>OCZEKUJE</strong></span>
+                    <div class="char-box">
+                        <img src="./img//char.png" alt="char" />
+                    </div>
+
+                    <div class="control-btn">
+                        <button id="start-test-btn">START</button>
+                        <button id="stop-test-btn">STOP</button>
+                    </div>
+                </div>
+
+                <div class="projects-title">
+                    <div style="background: #D48E01 !important"></div> <span>Statusy</span>
+                </div>
+
+            </div>
+
+            <div class="status-job-box">
+                <ul>
+                    <a href="#"><li><div class="job-status"></div><span class="job-name">#12 Aug 27, 2021 4:32</span></li></a>
+                    <a href="#"><li><div style="background: #FF2929;" class="job-status"></div><span class="job-name">#12 Aug 27, 2021 4:32</span></li></a>
+                    <a href="#"><li><div class="job-status"></div><span class="job-name">#12 Aug 27, 2021 4:32</span></li></a>
+                    <a href="#"><li><div class="job-status"></div><span class="job-name">#12 Aug 27, 2021 4:32</span></li></a>
+                    <a href="#"><li><div style="background: #FF2929;" class="job-status"></div><span class="job-name">#12 Aug 27, 2021 4:32</span></li></a>
+                    <a href="#"><li><div class="job-status"></div><span class="job-name">#12 Aug 27, 2021 4:32</span></li></a>
+                </ul>
+            </div>
+
+            <footer>
+                <div class="container">
+                    <a href="index.html">PROJEKTY</a>
+                    <a href="#">WYLOGUJ</a>
+                </div>
+            </footer>
+        </section>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
